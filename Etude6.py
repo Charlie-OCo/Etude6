@@ -61,7 +61,7 @@ for i in range(int(songLength / pieceLength)):
     plt.xlim(0, 3000)
     plt.text(100, 2, note, fontsize=30, color='red')  # X=100 Hz, Y=90% of max
 
-    # plt.pause(pieceLength)
+    plt.pause(pieceLength)
     plt.clf()  # Clear the plot for the next iteration
 
     
